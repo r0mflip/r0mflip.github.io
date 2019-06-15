@@ -6,21 +6,19 @@
   <meta name="author" content="r0mflip">
 
   <title>Ram Damera</title>
-  <meta name="description" content="Iam Ram Damera">
+  <meta name="description" content="Ram Damera on GitHub">
 
   <meta name="theme-color" content="#404040">
 
-  <meta property="og:title" content="Iam Ram Damera">
+  <meta property="og:title" content="Ram Damera on GitHub">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://r0mflip.github.io/">
   <meta property="og:image" content="https://r0mflip.github.io/avatar.jpeg">
-  <meta property="og:description" content="Iam Ram Damera">
 
-  <meta name="twitter:title" content="Iam Ram Damera">
+  <meta name="twitter:title" content="Ram Damera on GitHub">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="https://r0mflip.github.io/">
   <meta name="twitter:image" content="https://r0mflip.github.io/avatar.jpeg">
-  <meta name="twitter:description" content="Iam Ram Damera">
   <meta name="twitter:creator" content="@r0mflip">
 
   <style>
@@ -33,14 +31,13 @@
       box-sizing: inherit;
     }
 
-    html,
-    body {
+    html, body {
       font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
         Roboto, 'Helvetica Neue', Arial, sans-serif;
-      color: #404040;
+      color: #ffffff;
       font-size: 18px;
       line-height: 1.5;
-      background: #fafafa;
+      background-color: #ffffff;
 
       margin: 0;
       padding: 0;
@@ -55,61 +52,61 @@
     }
 
     a:hover, a:focus, a:active {
-      background: rgba(0, 0, 0, 0.15);
+      background-color: rgba(255, 255, 255, 0.15);
     }
 
-    .main {
+    main {
       display: flex;
-      width: 100%;
-      max-width: 580px;
-      padding: 1em;
-      margin: 2em 0 0;
       flex-direction: column;
       align-items: center;
+      max-width: 420px;
+      padding: 2em 1.5em;
+      margin: 4em 1.5em 1.5em;
+      background-color: #404040;
+      border-radius: 12px;
+      box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+        0 1px 10px 0 rgba(0, 0, 0, 0.12),
+        0 2px 4px -1px rgba(0, 0, 0, 0.2);
     }
 
-    .avatar {
+    main img {
       object-fit: contain;
       width: 220px;
       height: 220px;
       border-radius: 50%;
     }
 
-    .content-text {
-      background: #ffffff;
-      padding: 1em;
-      margin: 2em 0 0;
-      border-radius: 3px;
-    }
-
-    .avatar,
-    .content-text {
-      box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
-        0 1px 10px 0 rgba(0, 0, 0, 0.12),
-        0 2px 4px -1px rgba(0, 0, 0, 0.2);
-    }
-
-    .content-text h1,
-    .content-text p {
-      margin: 0 0 0.5rem;
+    main h1,
+    main p {
+      margin: 1rem 0 0;
       text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      html, body {
+        background-color: #404040;
+      }
+
+      main {
+        margin: 2em 1em 1em;
+        box-shadow: none;
+        border-radius: 0;
+      }
     }
   </style>
 </head>
 <body>
 
-  <main class="main">
-    <img class="avatar" src="/avatar.jpeg" alt="Ram Damera">
-    <div class="content-text">
-      <h1>Ram Damera</h1>
-      <p>
-        <span>Frontend and Node.js, web</span><span aria-hidden="true">&nbsp;🕸️</span>
-        <span>Networking</span><span aria-hidden="true">&nbsp;🌐</span>
-        <span>Tech support</span><span aria-hidden="true">&nbsp;👨🏼‍🔧</span>
-        <span>Building experimental stuff</span><span aria-hidden="true">&nbsp;☢️</span>
-      </p>
-      <p>I rant on <a target="_blank" rel="noreferrer nofollow" href="https://twitter.com/r0mflip">Twitter</a>, work on <a target="_blank" rel="noreferrer nofollow" href="https://github.com/r0mflip">GitHub</a>, chat on <a target="_blank" rel="noreferrer nofollow" href="https://keybase.io/notram">Keybase</a></p>
-    </div>
+  <main>
+    <img src="/avatar.jpg" alt="Ram Damera">
+    <h1>Ram Damera</h1>
+    <p>
+      <span>Frontend and Node.js, web</span><span aria-hidden="true">&nbsp;🕸️</span>,
+      <span>Networking</span><span aria-hidden="true">&nbsp;🌐</span>,
+      <span>Tech support</span><span aria-hidden="true">&nbsp;👨🏼‍🔧</span>,
+      <span>Building experimental stuff</span><span aria-hidden="true">&nbsp;☢️</span>
+    </p>
+    <p>I rant on <a target="_blank" rel="noreferrer nofollow" href="https://twitter.com/r0mflip">Twitter</a>, work on <a target="_blank" rel="noreferrer nofollow" href="https://github.com/r0mflip">GitHub</a>, chat on <a target="_blank" rel="noreferrer nofollow" href="https://keybase.io/notram">Keybase</a>, follow me on <a target="_blank" rel="noreferrer nofollow" href="https://www.linkedin.com/in/ramdamera/">LinkedIn</a></p>
   </main>
 
 </body>
