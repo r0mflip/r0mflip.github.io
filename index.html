@@ -6,22 +6,22 @@
   <meta name="author" content="r0mflip">
 
   <title>Ram Damera</title>
-  <meta name="description" content="Ram Damera on GitHub">
+  <meta name="description" content="Front-end web developer, Node.js things and Network engineer. Still a student.">
 
   <meta name="theme-color" content="#404040">
 
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="apple-touch-icon-precomposed" sizes="any" href="/favicon.png">
 
-  <meta property="og:title" content="Ram Damera on GitHub">
+  <meta property="og:title" content="Front-end web developer, Node.js things and Network engineer. Still a student.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://r0mflip.github.io/">
-  <meta property="og:image" content="https://r0mflip.github.io/avatar.jpeg">
+  <meta property="og:image" content="https://r0mflip.github.io/img/avatar-1.jpg">
 
-  <meta name="twitter:title" content="Ram Damera on GitHub">
+  <meta name="twitter:title" content="Front-end web developer, Node.js things and Network engineer. Still a student.">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="https://r0mflip.github.io/">
-  <meta name="twitter:image" content="https://r0mflip.github.io/avatar.jpeg">
+  <meta name="twitter:image" content="https://r0mflip.github.io/img/avatar-1.jpg">
   <meta name="twitter:creator" content="@r0mflip">
 
   <style>
@@ -37,25 +37,17 @@
     html, body {
       font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
         Roboto, 'Helvetica Neue', Arial, sans-serif;
-      color: #ffffff;
+      color: #404040;
       font-size: 18px;
       line-height: 1.5;
-      background-color: #ffffff;
+      background-color: hsla(250, 25%, 95%, 1);
 
       margin: 0;
       padding: 0;
       display: flex;
       width: 100%;
-      min-height: 500px;
+      min-height: 600px;
       justify-content: center;
-    }
-
-    a, a:active, a:hover, a:focus {
-      color: inherit;
-    }
-
-    a:hover, a:focus, a:active {
-      background-color: rgba(255, 255, 255, 0.15);
     }
 
     main {
@@ -64,12 +56,11 @@
       align-items: center;
       max-width: 420px;
       padding: 2em 1.5em;
-      margin: 4em 1.5em 1.5em;
-      background-color: #404040;
-      border-radius: 12px;
-      box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
-        0 1px 10px 0 rgba(0, 0, 0, 0.12),
-        0 2px 4px -1px rgba(0, 0, 0, 0.2);
+      margin: 4em 1.5em 2em;
+      background-color: #ffffff;
+      border-radius: 3px;
+      box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.2),
+        0 0 4px 0px rgba(0, 0, 0, 0.1);
     }
 
     main img {
@@ -77,6 +68,7 @@
       width: 220px;
       height: 220px;
       border-radius: 50%;
+      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
     }
 
     main h1,
@@ -85,13 +77,22 @@
       text-align: center;
     }
 
-    p[aria-hidden="true"] {
-      color: #999999;
+    .links {
+      color: #d0d0d0;
+    }
+
+    .links a {
+      color: #45519E;
+      text-decoration: none;
+    }
+
+    .links a:hover, .links a:focus, .links a:active {
+      border-bottom: 1px solid #45519E;
     }
 
     @media (max-width: 480px) {
       html, body {
-        background-color: #404040;
+        background-color: #ffffff;
       }
 
       main {
@@ -100,16 +101,45 @@
         border-radius: 0;
       }
     }
+
+    @media (prefers-color-scheme: dark) {
+      html, body {
+        color: #ffffff;
+        background-color: #808080;
+      }
+
+      main {
+        background-color: #404040;
+      }
+
+      .links {
+        color: #757575;
+      }
+
+      .links a {
+        color: #d6d6d6;
+      }
+
+      .links a:hover, .links a:focus, .links a:active {
+        border-bottom: 1px solid #d6d6d6;
+      }
+
+      @media (max-width: 480px) {
+        html, body {
+          background-color: #404040;
+        }
+      }
+    }
   </style>
 </head>
 <body>
 
   <main>
-    <img src="/avatar.jpg" alt="Ram's mugshot">
+    <img src="/img/avatar-1.jpg" alt="Ram's mugshot">
     <h1>Ram Damera</h1>
-    <p>All things tech. Currently on web, Node.js, networking, tech support.</p>
+    <p>Front-end web developer, Node.js things and Network engineer. Still a student.</p>
 
-    <p>I rant on <a target="_blank" rel="noreferrer nofollow" href="https://twitter.com/r0mflip">Twitter</a>, work on <a target="_blank" rel="noreferrer nofollow" href="https://github.com/r0mflip">GitHub</a>, chat on <a target="_blank" rel="noreferrer nofollow" href="https://keybase.io/notram">Keybase</a>, follow me on <a target="_blank" rel="noreferrer nofollow" href="https://www.linkedin.com/in/ramdamera/">LinkedIn</a>.</p>
+    <p class="links"><a target="_blank" rel="noreferrer nofollow" href="https://twitter.com/r0mflip">Twitter</a> | <a target="_blank" rel="noreferrer nofollow" href="https://github.com/r0mflip">GitHub</a> | <a target="_blank" rel="noreferrer nofollow" href="https://www.linkedin.com/in/ramdamera/">LinkedIn</a> | <a target="_blank" rel="noreferrer nofollow" href="https://keybase.io/notram">Keybase</a></p>
   </main>
 
 </body>
