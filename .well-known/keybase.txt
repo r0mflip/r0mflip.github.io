@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/notram
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://r0mflip.github.io
+  * I am notram (https://keybase.io/notram) on keybase.
+  * I have a public key ASCzrIx9A6AeSL9cBw6z5-PC4pNrpKJfsKpYikWqxaWLDgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012059f8fa556a919fe64a9bd1240b94e1cc800b15a5143708981ebc251c5da67d8d0a",
+      "host": "keybase.io",
+      "kid": "0120b3ac8c7d03a01e48bf5c070eb3e7e3c2e2936ba4a25fb0aa588a45aac5a58b0e0a",
+      "uid": "84710dd39f3b3d2eab1961389a191e19",
+      "username": "notram"
+    },
+    "merkle_root": {
+      "ctime": 1569338260,
+      "hash": "1de88e6a97d45924189b4a2507b0471a5e2c7279e2b9d04cd36d2c5e5cbc3ee1a33ca923ebe60b55fdc124d5af4844d5026a9f8e94e8dfdbe521ae0d6c0c4ed9",
+      "hash_meta": "4442719b9a0ec2b32a02a4a6505272173d448bdf6648cefc416f1765ab6eff43",
+      "seqno": 7723036
+    },
+    "service": {
+      "entropy": "M93o2sZBOxnXDQ8JacKLMaGx",
+      "hostname": "r0mflip.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.5.0"
+  },
+  "ctime": 1569338269,
+  "expire_in": 504576000,
+  "prev": "58243d2a0d746e2a8a5eea3cbb2799f1a435eed2b68f560efa815e8ea1efd85b",
+  "seqno": 72,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgs6yMfQOgHki/XAcOs+fjwuKTa6SiX7CqWIpFqsWliw4Kp3BheWxvYWTESpcCSMQgWCQ9Kg10biqKXuo8uyeZ8aQ17tK2j1YO+oFejqHv2FvEILcYABtGq6uSQadiGdNrfmB/DUIVubeR41BDiZBLmY2gAgHCo3NpZ8RALEJfMLwTUZZhA8+jJvQjf5G8Pgh6S4RIRAqzvC38EuSL6u5Pxq/sHEv1Dvvho64KchHk2Armn+FA97A/iy7dDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILKld+XANcZZFsjpGBc0wnrnp6mB4ZUEWNmZD3UWZ1S8o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/notram
+
+==================================================================
