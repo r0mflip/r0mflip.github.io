@@ -1,1 +1,2 @@
 include: [".well-known"]
+show_dir_listing: true
