@@ -1,1 +1,1 @@
-keep_files: [".well-known"]
+include: [".well-known"]
